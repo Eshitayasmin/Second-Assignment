@@ -9,8 +9,8 @@ h1{
     font-family: 'Roboto Slab', serif;
 }
 h2{
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 900;
 }
 hr{
     color:rgb(247, 218, 218);
@@ -83,4 +83,68 @@ hr{
     grid-template-columns: repeat(7,1fr);
     align-items: center;
     height:100px;
+}
+/* Thirdpart */
+.popular-collections{
+    margin-top: 150px;
+    line-height: 5px;
+
+}
+.collections{
+       display: grid;
+       grid-template-columns: repeat(3,1fr);
+       background-color: lightgray;
+       padding-top:15px;
+       padding-left: 15px;
+       border-radius: 10px;
+       width:1300px;
+       margin-left: 180px;
+       margin-top: 80px;
+
+    
+       
+}
+.collection{
+    background-color:#FFFFFF;
+    height: 520px;
+    width:380px;
+    border-radius: 5PX;
+    margin-bottom: 30px;
+    padding:15px;
+    margin-right: 
+    
+     
+}
+     
+.h2-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.product-image{
+    height:320px;
+    width: 380px;
+}
+.product-name{
+    padding-bottom:10px;
+}
+.price{
+    font-size: 25px;
+}
+.ratings{
+    display: flex;
+    justify-content: 
+}
+.rating{
+    margin-top: 4px;
+    margin-left:20px;
+}
+.fa-star.filled{
+    color:#FFC014;
+}
+.fa-star.empty{
+    color:#AEAEAE;
+}
+.light-gray{
+    color:#AEAEAE;
 }
